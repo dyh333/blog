@@ -21,7 +21,8 @@ ng generate component modules/header
 ```
 
 现在的目录结构大概如下图：
-![image](https://github.com/dyh333/blog/blob/master/assets/imgs/1-2-1.png)
+![1-2-1](https://user-images.githubusercontent.com/1221313/40034714-b81c1e54-5830-11e8-96d0-b3de3d03e5a7.png)
+
 
 打开header.component.html并替换为：
 ```
@@ -79,7 +80,7 @@ export class AppModule { }
 ```
 
 再次启动ng serve，可以看到HeaderComponent已经显示在页面上了
-![image](https://github.com/dyh333/blog/blob/master/assets/imgs/1-2-2.png)
+![1-2-2](https://user-images.githubusercontent.com/1221313/40034758-f9248e22-5830-11e8-9093-0d2606378be4.png)
 
 自此，我们已经创建了一个待共享的header模块及相应的组件。
 
@@ -154,7 +155,8 @@ npm install ngx-packagr-test
 
 ## 后记 ##
 angular6官方已增强了library的构建。我自己也试了一下，发现ng generate library命令必须是在一个ng项目中执行才行。所以构建出来的一个library目录结构如下：
-![image](https://github.com/dyh333/blog/blob/master/assets/imgs/1-2-3.png)
+![1-2-3](https://user-images.githubusercontent.com/1221313/40034770-03e82396-5831-11e8-9e83-a30639fc6781.png)
+
 
 等于是将library和src/app放在同一项目中了，目前还不知道如何将library单独打包出来。
 
